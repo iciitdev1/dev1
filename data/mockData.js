@@ -3,6 +3,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 1, 
     key: 'emotionalResilience1',
+    textKey: 'assessmentQuestions.emotionalResilience1',
+    optionsKey: 'assessmentOptions.emotionalResilience1',
     skill: "Emotional Resilience", 
     text: "How quickly do you bounce back after a client rejection?", 
     options: ["Immediately", "Within an hour", "Next day", "Days later"],
@@ -11,6 +13,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 2, 
     key: 'emotionalResilience2',
+    textKey: 'assessmentQuestions.emotionalResilience2',
+    optionsKey: 'assessmentOptions.emotionalResilience2',
     skill: "Emotional Resilience", 
     text: "When facing repeated 'no's, how do you feel?", 
     options: ["Motivated to improve", "Slightly discouraged", "Very frustrated", "Want to quit"],
@@ -19,6 +23,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 3, 
     key: 'emotionalResilience3',
+    textKey: 'assessmentQuestions.emotionalResilience3',
+    optionsKey: 'assessmentOptions.emotionalResilience3',
     skill: "Emotional Resilience", 
     text: "How do you handle criticism of your sales approach?", 
     options: ["Use it to improve", "Take it personally but recover", "Feel defensive", "Avoid feedback"],
@@ -29,6 +35,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 4, 
     key: 'energyFocus1',
+    textKey: 'assessmentQuestions.energyFocus1',
+    optionsKey: 'assessmentOptions.energyFocus1',
     skill: "Energy and Focus", 
     text: "How often do you feel mentally drained during the workday?", 
     options: ["Rarely", "Sometimes", "Often", "Almost always"],
@@ -37,6 +45,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 5, 
     key: 'energyFocus2',
+    textKey: 'assessmentQuestions.energyFocus2',
+    optionsKey: 'assessmentOptions.energyFocus2',
     skill: "Energy and Focus", 
     text: "How well can you concentrate during important calls?", 
     options: ["Fully focused", "Mostly focused", "Sometimes distracted", "Often distracted"],
@@ -45,6 +55,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 6, 
     key: 'energyFocus3',
+    textKey: 'assessmentQuestions.energyFocus3',
+    optionsKey: 'assessmentOptions.energyFocus3',
     skill: "Energy and Focus", 
     text: "How do you maintain energy throughout long sales days?", 
     options: ["Natural high energy", "Take strategic breaks", "Push through fatigue", "Struggle with fatigue"],
@@ -55,6 +67,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 7, 
     key: 'confidence1',
+    textKey: 'assessmentQuestions.confidence1',
+    optionsKey: 'assessmentOptions.confidence1',
     skill: "Confidence Building", 
     text: "How confident do you feel when approaching new prospects?", 
     options: ["Very confident", "Somewhat confident", "Nervous but manage", "Very anxious"],
@@ -63,6 +77,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 8, 
     key: 'confidence2',
+    textKey: 'assessmentQuestions.confidence2',
+    optionsKey: 'assessmentOptions.confidence2',
     skill: "Confidence Building", 
     text: "How do you feel about your sales abilities?", 
     options: ["Strong and improving", "Good with room to grow", "Adequate but doubting", "Lack confidence"],
@@ -73,6 +89,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 9, 
     key: 'stress1',
+    textKey: 'assessmentQuestions.stress1',
+    optionsKey: 'assessmentOptions.stress1',
     skill: "Stress Management", 
     text: "How do you handle high-pressure sales situations?", 
     options: ["Thrive under pressure", "Manage well", "Get somewhat anxious", "Feel overwhelmed"],
@@ -81,6 +99,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 10, 
     key: 'stress2',
+    textKey: 'assessmentQuestions.stress2',
+    optionsKey: 'assessmentOptions.stress2',
     skill: "Stress Management", 
     text: "How often do you experience sales-related anxiety?", 
     options: ["Never", "Rarely", "Sometimes", "Frequently"],
@@ -91,6 +111,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 11, 
     key: 'motivation1',
+    textKey: 'assessmentQuestions.motivation1',
+    optionsKey: 'assessmentOptions.motivation1',
     skill: "Motivation", 
     text: "How motivated are you to achieve your sales targets?", 
     options: ["Extremely motivated", "Very motivated", "Somewhat motivated", "Struggling with motivation"],
@@ -99,6 +121,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 12, 
     key: 'motivation2',
+    textKey: 'assessmentQuestions.motivation2',
+    optionsKey: 'assessmentOptions.motivation2',
     skill: "Motivation", 
     text: "How clear are you about your career goals?", 
     options: ["Very clear path", "Generally clear", "Somewhat unclear", "Very unclear"],
@@ -109,6 +133,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 13, 
     key: 'communication1',
+    textKey: 'assessmentQuestions.communication1',
+    optionsKey: 'assessmentOptions.communication1',
     skill: "Communication", 
     text: "How comfortable are you with difficult conversations?", 
     options: ["Very comfortable", "Mostly comfortable", "Somewhat uncomfortable", "Very uncomfortable"],
@@ -117,6 +143,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 14, 
     key: 'communication2',
+    textKey: 'assessmentQuestions.communication2',
+    optionsKey: 'assessmentOptions.communication2',
     skill: "Communication", 
     text: "How well do you listen to customer needs?", 
     options: ["Excellent listener", "Good listener", "Average listener", "Need improvement"],
@@ -127,6 +155,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 15, 
     key: 'timeManagement1',
+    textKey: 'assessmentQuestions.timeManagement1',
+    optionsKey: 'assessmentOptions.timeManagement1',
     skill: "Time Management", 
     text: "How well do you prioritize your daily tasks?", 
     options: ["Very organized", "Mostly organized", "Somewhat scattered", "Very disorganized"],
@@ -135,6 +165,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 16, 
     key: 'timeManagement2',
+    textKey: 'assessmentQuestions.timeManagement2',
+    optionsKey: 'assessmentOptions.timeManagement2',
     skill: "Time Management", 
     text: "How often do you meet your deadlines?", 
     options: ["Always", "Usually", "Sometimes", "Rarely"],
@@ -145,6 +177,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 17, 
     key: 'relationships1',
+    textKey: 'assessmentQuestions.relationships1',
+    optionsKey: 'assessmentOptions.relationships1',
     skill: "Relationship Building", 
     text: "How easily do you build rapport with new clients?", 
     options: ["Very easily", "Fairly easily", "With some effort", "With great difficulty"],
@@ -153,6 +187,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 18, 
     key: 'relationships2',
+    textKey: 'assessmentQuestions.relationships2',
+    optionsKey: 'assessmentOptions.relationships2',
     skill: "Relationship Building", 
     text: "How well do you maintain long-term client relationships?", 
     options: ["Excellent", "Good", "Fair", "Poor"],
@@ -163,6 +199,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 19, 
     key: 'adaptability1',
+    textKey: 'assessmentQuestions.adaptability1',
+    optionsKey: 'assessmentOptions.adaptability1',
     skill: "Adaptability", 
     text: "How well do you adjust to changing market conditions?", 
     options: ["Very adaptable", "Mostly adaptable", "Somewhat rigid", "Very rigid"],
@@ -171,6 +209,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 20, 
     key: 'adaptability2',
+    textKey: 'assessmentQuestions.adaptability2',
+    optionsKey: 'assessmentOptions.adaptability2',
     skill: "Adaptability", 
     text: "How do you handle unexpected changes in your sales process?", 
     options: ["Embrace change", "Adapt quickly", "Need time to adjust", "Resist change"],
@@ -181,6 +221,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 21, 
     key: 'problemSolving1',
+    textKey: 'assessmentQuestions.problemSolving1',
+    optionsKey: 'assessmentOptions.problemSolving1',
     skill: "Problem-Solving", 
     text: "How do you approach complex client problems?", 
     options: ["Systematic approach", "Intuitive problem-solving", "Ask for help", "Feel overwhelmed"],
@@ -189,6 +231,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 22, 
     key: 'problemSolving2',
+    textKey: 'assessmentQuestions.problemSolving2',
+    optionsKey: 'assessmentOptions.problemSolving2',
     skill: "Problem-Solving", 
     text: "How confident are you in finding creative solutions?", 
     options: ["Very confident", "Somewhat confident", "Not very confident", "Lack confidence"],
@@ -198,6 +242,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 23, 
     key: 'empathy1',
+    textKey: 'assessmentQuestions.empathy1',
+    optionsKey: 'assessmentOptions.empathy1',
     skill: "Empathy and Active Listening", 
     text: "How well do you understand your clients' underlying concerns?", 
     options: ["Always pick up on emotions", "Usually understand concerns", "Sometimes miss cues", "Often misunderstand needs"],
@@ -206,6 +252,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 24, 
     key: 'empathy2',
+    textKey: 'assessmentQuestions.empathy2',
+    optionsKey: 'assessmentOptions.empathy2',
     skill: "Empathy and Active Listening", 
     text: "How often do you reflect back what clients say?", 
     options: ["Always paraphrase", "Often reflect", "Sometimes summarize", "Rarely reflect back"],
@@ -214,6 +262,8 @@ export const mockAssessmentQuestions = [
   { 
     id: 25, 
     key: 'empathy3',
+    textKey: 'assessmentQuestions.empathy3',
+    optionsKey: 'assessmentOptions.empathy3',
     skill: "Empathy and Active Listening", 
     text: "How comfortable are you with emotional conversations?", 
     options: ["Very comfortable", "Mostly comfortable", "Somewhat uncomfortable", "Very uncomfortable"],

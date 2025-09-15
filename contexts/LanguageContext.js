@@ -192,6 +192,35 @@ const en = {
     anxiety1: 'How often do you delay important calls due to anxiety?',
     anxiety2: 'How comfortable do you feel before making cold calls?',
     anxiety3: 'How do you handle anticipation of difficult conversations?'
+  },
+
+  // Assessment Options
+  assessmentOptions: {
+    emotionalResilience1: ["Immediately", "Within an hour", "Next day", "Days later"],
+    emotionalResilience2: ["Motivated to improve", "Slightly discouraged", "Very frustrated", "Want to quit"],
+    emotionalResilience3: ["Use it to improve", "Take it personally but recover", "Feel defensive", "Avoid feedback"],
+    energyFocus1: ["Rarely", "Sometimes", "Often", "Almost always"],
+    energyFocus2: ["Fully focused", "Mostly focused", "Sometimes distracted", "Often distracted"],
+    energyFocus3: ["Natural high energy", "Take strategic breaks", "Push through fatigue", "Struggle with fatigue"],
+    confidence1: ["Very confident", "Somewhat confident", "Nervous but manage", "Very anxious"],
+    confidence2: ["Strong and improving", "Good with room to grow", "Adequate but doubting", "Lack confidence"],
+    stress1: ["Thrive under pressure", "Manage well", "Get somewhat anxious", "Feel overwhelmed"],
+    stress2: ["Never", "Rarely", "Sometimes", "Frequently"],
+    motivation1: ["Extremely motivated", "Very motivated", "Somewhat motivated", "Struggling with motivation"],
+    motivation2: ["Very clear path", "Generally clear", "Somewhat unclear", "Very unclear"],
+    communication1: ["Very comfortable", "Mostly comfortable", "Somewhat uncomfortable", "Very uncomfortable"],
+    communication2: ["Excellent listener", "Good listener", "Average listener", "Need improvement"],
+    timeManagement1: ["Very organized", "Mostly organized", "Somewhat scattered", "Very disorganized"],
+    timeManagement2: ["Always", "Usually", "Sometimes", "Rarely"],
+    relationships1: ["Very easily", "Fairly easily", "With some effort", "With great difficulty"],
+    relationships2: ["Excellent", "Good", "Fair", "Poor"],
+    adaptability1: ["Very adaptable", "Mostly adaptable", "Somewhat rigid", "Very rigid"],
+    adaptability2: ["Embrace change", "Adapt quickly", "Need time to adjust", "Resist change"],
+    problemSolving1: ["Systematic approach", "Intuitive problem-solving", "Ask for help", "Feel overwhelmed"],
+    problemSolving2: ["Very confident", "Somewhat confident", "Not very confident", "Lack confidence"],
+    empathy1: ["Always pick up on emotions", "Usually understand concerns", "Sometimes miss cues", "Often misunderstand needs"],
+    empathy2: ["Always paraphrase", "Often reflect", "Sometimes summarize", "Rarely reflect back"],
+    empathy3: ["Very comfortable", "Mostly comfortable", "Somewhat uncomfortable", "Very uncomfortable"]
   }
 };
 
@@ -384,6 +413,35 @@ const ru = {
     anxiety1: 'Как часто вы откладываете важные звонки из-за тревоги?',
     anxiety2: 'Насколько комфортно вы себя чувствуете перед холодными звонками?',
     anxiety3: 'Как вы справляетесь с ожиданием трудных разговоров?'
+  },
+
+  // Assessment Options
+  assessmentOptions: {
+    emotionalResilience1: ["Немедленно", "В течение часа", "На следующий день", "Через несколько дней"],
+    emotionalResilience2: ["Мотивирован улучшаться", "Слегка обескуражен", "Очень расстроен", "Хочу бросить"],
+    emotionalResilience3: ["Использую для улучшения", "Принимаю близко к сердцу, но восстанавливаюсь", "Защищаюсь", "Избегаю обратной связи"],
+    energyFocus1: ["Редко", "Иногда", "Часто", "Почти всегда"],
+    energyFocus2: ["Полностью сосредоточен", "В основном сосредоточен", "Иногда отвлекаюсь", "Часто отвлекаюсь"],
+    energyFocus3: ["Естественно высокая энергия", "Делаю стратегические перерывы", "Преодолеваю усталость", "Борюсь с усталостью"],
+    confidence1: ["Очень уверен", "Довольно уверен", "Нервничаю, но справляюсь", "Очень тревожусь"],
+    confidence2: ["Сильный и улучшающийся", "Хороший с возможностью роста", "Адекватный, но сомневающийся", "Не хватает уверенности"],
+    stress1: ["Процветаю под давлением", "Хорошо справляюсь", "Немного тревожусь", "Чувствую себя подавленным"],
+    stress2: ["Никогда", "Редко", "Иногда", "Часто"],
+    motivation1: ["Крайне мотивирован", "Очень мотивирован", "Довольно мотивирован", "Борюсь с мотивацией"],
+    motivation2: ["Очень четкий путь", "В целом ясно", "Несколько неясно", "Очень неясно"],
+    communication1: ["Очень комфортно", "В основном комфортно", "Несколько некомфортно", "Очень некомфортно"],
+    communication2: ["Отличный слушатель", "Хороший слушатель", "Средний слушатель", "Нужно улучшение"],
+    timeManagement1: ["Очень организован", "В основном организован", "Несколько разбросан", "Очень неорганизован"],
+    timeManagement2: ["Всегда", "Обычно", "Иногда", "Редко"],
+    relationships1: ["Очень легко", "Довольно легко", "С некоторыми усилиями", "С большим трудом"],
+    relationships2: ["Отлично", "Хорошо", "Удовлетворительно", "Плохо"],
+    adaptability1: ["Очень адаптивный", "В основном адаптивный", "Несколько жесткий", "Очень жесткий"],
+    adaptability2: ["Принимаю изменения", "Быстро адаптируюсь", "Нужно время для адаптации", "Сопротивляюсь изменениям"],
+    problemSolving1: ["Систематический подход", "Интуитивное решение проблем", "Прошу помощи", "Чувствую себя подавленным"],
+    problemSolving2: ["Очень уверен", "Довольно уверен", "Не очень уверен", "Не хватает уверенности"],
+    empathy1: ["Всегда улавливаю эмоции", "Обычно понимаю заботы", "Иногда упускаю сигналы", "Часто неправильно понимаю потребности"],
+    empathy2: ["Всегда перефразирую", "Часто отражаю", "Иногда резюмирую", "Редко отражаю обратно"],
+    empathy3: ["Очень комфортно", "В основном комфортно", "Несколько некомфортно", "Очень некомфортно"]
   }
 };
 
